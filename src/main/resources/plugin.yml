@@ -1,0 +1,41 @@
+name: LobbyProtector
+version: '${project.version}'
+main: dev.protector.plugin.lobbyprotector.Main
+api-version: 1.16
+authors: [ AmpunBang_ ]
+description: Simple lobby protector for my server
+commands:
+  buildmode:
+    aliases:
+      - bm
+    description: Make player can break or nah.
+
+  protectworld:
+    aliases:
+      - pworld
+      - pw
+    description: Protect your world, not an area!
+
+  lobbyprotector:
+    aliases:
+      - lobbyp
+      - lop
+    description: Simple util command.
+
+  setuparea:
+    description: To setup area.
+
+  areapos1:
+    aliases:
+      - apos1
+    description: To save player coordinate.
+
+  areapos2:
+    aliases:
+      - apos2
+    description: To save player coordinate.
+
+  deletearea:
+    aliases:
+      - delarea
+    description: To delete area.
